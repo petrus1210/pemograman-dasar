@@ -1,0 +1,114 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPyseaKrVQxEbFs/yhDC4mL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/petrus1210/pemograman-dasar/blob/main/pertemuan%202%20ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 18,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jeTNvy6VBEmr",
+        "outputId": "4cfb875c-6220-4811-e0ec-4a7c91922763"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "43\n"
+          ]
+        }
+      ],
+      "source": [
+        "# deklarasi variabel list\n",
+        "numbers = [23, 43, 15, 34]\n",
+        "# cara mengakses elemen dalam variabel list\n",
+        "numbers [0] # 23\n",
+        "numbers [1] # 43\n",
+        "numbers [2] # 15\n",
+        "numbers [3] # 34\n",
+        "#cara mengubah nilai elemen dalam variabel list\n",
+        "numbers [2] #51\n",
+        "numbers [2] #51\n",
+        "\n",
+        "print (numbers[1]) #lakukan untuk setiap indexnya dan lihat hasilnya\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# deklarasi variabel list numbers\n",
+        "numbers = [1, 2, 3]\n",
+        "\n",
+        "# menambänkan elemen di indeks ke-4\n",
+        "numbers.insert(4, 5)    # [1, 2, 3, 5]\n",
+        "\n",
+        "# mengubah elemen di indeks ke-4\n",
+        "numbers[3] = 4    # [1; 2, 3, 4]\n",
+        "\n",
+        "# menghapus elemen di indeks ke-2\n",
+        "numbers. pop(2)    # [1, 2, 4]\n",
+        "\n",
+        "#print lalu lihat hasilya\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H3wPoGizHHzX",
+        "outputId": "3b822783-9aaa-4415-849b-2e5be66b133d"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "-MAAaYfeHxGn"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
